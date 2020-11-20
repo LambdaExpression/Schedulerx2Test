@@ -31,6 +31,7 @@
         <alibaba-cloud-nacos.version>2.2.1.RELEASE</alibaba-cloud-nacos.version>
         <schedulerx2.version>1.2.1.1</schedulerx2.version>
         <fastjson.version>1.2.68</fastjson.version>
+        <logger.api.version>0.2.8</logger.api.version>
     </properties>
 
     <dependencies>
@@ -69,6 +70,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.taobao.middleware</groupId>
+            <artifactId>logger.api</artifactId>
+            <version>${logger.api.version}</version>
         </dependency>
     </dependencies>
 
